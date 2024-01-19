@@ -164,26 +164,27 @@ width: 403px;
 /* sezzione 3 */
 main section.tre {
   background-color: #D3D3D3;
-  padding-top: 50px;
+  padding-top: 200px;
   padding-bottom: 50px;
 }
 
-.reverse {
-  display: flex;
-  flex-direction: row-reverse;
-}
 
 .img-tre {
   width: 1050px;
   height: 700px;
-  background-color: #1D90FF;
+}
 
+.img-tre img{
+  width: 850px;
 }
 
 .info-tre {
   width: 650px;
   height: 700px;
-  background-color: #FFBFCB;
+}
+
+.info-tre h2{
+padding-top: 35px;
 }
 
 /* sezzione 4 */
@@ -196,14 +197,16 @@ main section.quattro {
 .img-quattro {
   width: 1050px;
   height: 700px;
-  background-color: #1D90FF;
+
+}
+
+.img-quattro img{
 
 }
 
 .info-quattro {
   width: 650px;
   height: 700px;
-  background-color: #FFBFCB;
 }
 
 /* sezzine 5 */
