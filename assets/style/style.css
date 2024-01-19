@@ -369,6 +369,8 @@ width: 20px;
   width: 1400px;
   height: 100px;
   margin-bottom: 90px;
+  border-top: 1px solid;
+  border-color: white;
 }
 
 .button2 button {
