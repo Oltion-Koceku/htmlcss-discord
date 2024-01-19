@@ -78,6 +78,11 @@ h5{
 span{
 margin-top: 20px;
 font-size: 24px;
+color: white;
+}
+
+br{
+color: #8FA0E1;
 }
 
 /* header */
@@ -85,7 +90,7 @@ font-size: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1700px;
+  width: 1400px;
   height: 70px;
 
 }
@@ -237,7 +242,7 @@ main section.cinque {
 }
 
 .img-tecnologia {
-  width: 1700px;
+  width: 1400px;
 }
 
 .info-tecnologia h2{
@@ -286,7 +291,7 @@ div.star{
 /* footer */
 
 .Foot-uno.container {
-  width: 1700px;
+  width: 1400px;
   height: 700px;
 }
 
@@ -354,7 +359,6 @@ width: 20px;
 
 /* footer 2 */
 .foot-due {
-  margin-top: 2px;
   padding-top: 35px;
   background-color: #23272A;
 }
@@ -363,22 +367,16 @@ width: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1700px;
+  width: 1400px;
   height: 100px;
-  background-color: #7FFFD4;
 }
 
 .button2 button {
   text-decoration: none;
   border: none;
-  font-size: 26px;
-  background-color: #FFB6C0;
-  padding: 5px;
+  font-size: 18px;
+  padding: 11px;
+  background-color: #8FA0E1;
 }
 
-.logo2 {
-  font-size: 28px;
-  background-color: #FFB6C0;
-  padding: 5px;
-}
 
