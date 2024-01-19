@@ -11,8 +11,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 17px;
-  font-size: 28px;
-  background-color: #ADD8E6;
+  font-size: 24px;
+  background-color: #3161E0;
 
 }
 
@@ -31,9 +31,14 @@ header {
 
 }
 
-.debug {
-  border: 3px dashed;
+button{
+border-radius: 38px;
+text-align: center;
 }
+
+/* .debug {
+  border: 3px dashed;
+} */
 
 nav ul {
   display: flex;
@@ -47,25 +52,24 @@ nav ul {
   justify-content: space-between;
   width: 1700px;
   height: 70px;
-  background-color: #DAA521;
+  
 }
 
 .logo{
-padding-left: 50px;
+
 }
 
 .link ul li a {
-  padding: 10px;
+  padding: 35px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .buttonhead button {
   text-decoration: none;
   border: none;
-  font-size: 26px;
-  background-color: #DAA521;
-  padding-right: 50px;
+  font-size: 23px;
+  padding: 14px;
 }
 
 /* main */
