@@ -66,6 +66,20 @@ nav ul {
   list-style: none;
 }
 
+h4{
+color: #738BDE;
+font-size: 40px;
+}
+h5{
+  color: #738BDE;
+  font-size: 24px;
+}
+
+span{
+margin-top: 20px;
+font-size: 24px;
+}
+
 /* header */
 .head {
   display: flex;
@@ -276,46 +290,64 @@ div.star{
   height: 700px;
 }
 
+div .menu {
+  display: flex;
+  width: 400px;
+  height: 700px;
+  flex-direction: column;
+}
+
 /* colonne */
 
+.colonne{
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  color: white;
+
+}
+
 footer section.foot-uno {
-  padding-top: 20px;
+  padding-top: 100px;
   background-color: #23272A;
   padding-bottom: 50px;
 }
 
-div .menu {
-  width: 550px;
-  height: 700px;
-  background-color: #F08080;
-}
 
 div .colonna1 {
-  width: 287.5px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
   height: 700px;
-  background-color: #20B2AA;
-  border-color: white;
 }
 
 div .colonna2 {
-  width: 287.5px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
   height: 700px;
-  background-color: #20B2AA;
-  border-color: white;
 }
 
 div .colonna3 {
-  width: 287.5px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
   height: 700px;
-  background-color: #20B2AA;
-  border-color: white;
 }
 
 div .colonna4 {
-  width: 287.5px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
   height: 700px;
-  background-color: #20B2AA;
-  border-color: white;
+}
+
+.colonne p{
+  margin-top: 20px;
+}
+
+.ita img{
+width: 20px;
 }
 
 /* \colonne */
@@ -349,3 +381,4 @@ div .colonna4 {
   background-color: #FFB6C0;
   padding: 5px;
 }
+
