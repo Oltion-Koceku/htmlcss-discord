@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-body{
-font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 17px;
-  font-size: 24px;
+  font-size: 18px;
   background-color: #265DE8;
 
 }
@@ -25,13 +25,13 @@ header {
   padding-bottom: 50px;
 }
 
-h1{
-font-size: 70px;
-padding-top: 48px;
+h1 {
+  font-size: 70px;
+  padding-top: 48px;
 }
 
-p{
-font-size: 24px;
+p {
+  font-size: 24px;
 }
 
 .container {
@@ -41,9 +41,11 @@ font-size: 24px;
 
 }
 
-button{
-border-radius: 38px;
-text-align: center;
+button {
+  border-radius: 38px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
 }
 
 /* .debug {
@@ -62,22 +64,18 @@ nav ul {
   justify-content: space-between;
   width: 1700px;
   height: 70px;
-  
-}
-
-.logo{
 
 }
+
+.logo {}
 
 .link ul li a {
-  padding: 35px;
+  padding: 26px;
   text-decoration: none;
   color: white;
 }
 
 .buttonhead button {
-  text-decoration: none;
-  border: none;
   font-size: 23px;
   padding: 14px;
 }
@@ -93,10 +91,33 @@ div .hero {
   width: 900px;
   height: 500px;
   text-align: center;
+  color: white;
 }
 
-.hero div p{
-padding-top: 60px;
+.hero div p {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.mac{
+  display: inline-block;
+  margin-right: 20px;
+}
+.mac button{
+padding: 20px;
+width: 270px;
+font-size: 20px;
+}
+
+.browser{
+display: inline-block;
+}
+
+.browser button{
+  color: white;
+  background-color: black;
+  width: 380px;
+  padding: 20px;
+  font-size: 20px;
 }
 /* sezzione 1 */
 main section.due {
@@ -244,7 +265,7 @@ div .colonna4 {
   background-color: #7FFFD4;
 }
 
-.button2 button{
+.button2 button {
   text-decoration: none;
   border: none;
   font-size: 26px;
@@ -252,7 +273,7 @@ div .colonna4 {
   padding: 5px;
 }
 
-.logo2{
+.logo2 {
   font-size: 28px;
   background-color: #FFB6C0;
   padding: 5px;
