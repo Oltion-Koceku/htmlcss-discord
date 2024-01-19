@@ -219,12 +219,54 @@ main section.cinque {
   background-color: #D3D3D3;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .img-tecnologia {
   width: 1700px;
-  height: 1800px;
-  background-color: #238B21;
+}
+
+.info-tecnologia h2{
+  width: 1446px;
+  font-size: 59px;
+}
+
+.text-cinque p{
+  width: 1321px;
+    padding-left: 109px;
+}
+
+.img-cinque img{
+  width: 1483px;
+}
+
+/* star */
+
+div.star{
+  display: flex;
+  justify-content: center;
+}
+.star h3{
+  font-size: 39px;
+  background-image: url(../img/stars.svg);
+  background-size: 103%;
+  padding-right: 40px;
+  padding-top: 46px;
+  padding-left: 35px;
+}
+ 
+/* button */
+
+.button-cinque{
+  padding-bottom: 100px;
+
+}
+
+.button-cinque button{
+  padding: 20px;
+  font-size: 20px;
+  background-color: #8FA0E1;
+  color: white;
 }
 
 /* footer */
