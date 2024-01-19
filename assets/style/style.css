@@ -201,12 +201,16 @@ main section.quattro {
 }
 
 .img-quattro img{
-
+  width: 750px;
 }
 
 .info-quattro {
   width: 650px;
   height: 700px;
+}
+
+.text-quattro p{
+  width: 430px;
 }
 
 /* sezzine 5 */
