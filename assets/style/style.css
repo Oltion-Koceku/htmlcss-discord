@@ -57,6 +57,11 @@ button {
   border: none;
 }
 
+button:hover{
+opacity: .8;
+cursor: pointer;
+}
+
 /* .debug {
   border: 3px dashed;
 } */
@@ -97,9 +102,13 @@ hr{
 .logo {}
 
 .link ul li a {
-  padding: 26px;
+  margin: 26px;
   text-decoration: none;
   color: white;
+}
+
+.link ul li a:hover{
+text-decoration: underline;
 }
 
 .buttonhead button {
@@ -111,9 +120,9 @@ hr{
 
 .box-hero {
   background-image: url(../img/jumbo.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-
+  background-position: center;
 }
 
 div .hero {
@@ -126,6 +135,7 @@ div .hero {
 .hero div p {
   padding-top: 60px;
   padding-bottom: 50px;
+  line-height: 35px;
 }
 .mac{
   display: inline-block;
@@ -181,7 +191,7 @@ width: 403px;
 
 /* sezzione 3 */
 main section.tre {
-  background-color: #D3D3D3;
+  background-color: #f7f7f7;
   padding-top: 200px;
   padding-bottom: 50px;
 }
@@ -234,7 +244,7 @@ main section.quattro {
 /* sezzine 5 */
 
 main section.cinque {
-  background-color: #D3D3D3;
+  background-color: #f7f7f7;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
@@ -370,7 +380,7 @@ width: 20px;
   height: 100px;
   margin-bottom: 90px;
   border-top: 1px solid;
-  border-color: white;
+  border-color: #7c839d;
 }
 
 .button2 button {
@@ -379,6 +389,7 @@ width: 20px;
   font-size: 18px;
   padding: 11px;
   background-color: #8FA0E1;
+  color: white;
 }
 
 
